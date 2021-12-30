@@ -1,0 +1,17 @@
+JS  --> Form (open, validate) 
+    --> Cart (add, delete)
+
+    https://havefunwiththehomies.com/index.php/shop/
+
+note: 
+    - transition & animation
+    - setAtribute("style","") rồi mới set ele.style.value nếu muốn set nhiều property cho 1 element
+
+not done:
+    - nav header when scroll;
+    - animation when hover product-items and change img (in and out)
+    - animation when onclick product_items (when close modal-container)
+
+some bug in product and product_Cart
+    1.khi xóa item cuối cùng thì trong mảng chứa list item đó vẫn còn 1 phần tử(pt đó chính là item đó) -> done
+    2. add to cart 1 items đã có trong cart thì sẽ thay đổi luôn item đó (size,số lượng,...) -> NOT DONE
